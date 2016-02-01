@@ -1,6 +1,6 @@
 # InfoStash
 
-**TODO LIST**
+# TODO LIST
 - [ ] Setup Rally or something similar to manage the project
 - [ ] I am using Xamarin Studio but anythign will work I believe
 - [ ] Create project layout
@@ -13,7 +13,8 @@
 - [ ] Setup devices that we want to support. Do we have different builds for each device or can we program it to work on all? Is there some kind of responisve for it?
 
 
-** Here is the idea **
+# Here is the idea
+
 An app that will keep information about various thing in an organized fashion and for easy retrieval when needed. The app should be able to be shared amongst multiple people. You should also be able to share specific items with other people in an easy way. For instance you can choose to make another person an admin and share your account(spouse?), you grant someone access to everything or a portion of your categories (read only, write, admin?) or you can send someone via other method(email, text, etc) a specific item or category.
 
 A large portion of this should be free but if you want advanced features like sharing, or sending items, then that should be the paid version. We could also limit the amount of items you can add, or even limit to a single category(house, person, misc.) in the free version. Ads on Free version?
@@ -70,7 +71,7 @@ We will have default options below that have images and suggested items.
     * Grandfather
   * Miscellaneous
   
-  ** object/class/table ideas **
+  # object/class/table ideas
   master_main_catagories *holds the default master category list*
   master_sub_categories *holds the default master subcategory list*
   master_objects *holds the default master object list*
@@ -82,3 +83,16 @@ We will have default options below that have images and suggested items.
   user_object_fields *holds the users selected fields*
   
   Data would be transferred from the master table to the user table when it is used but it would also be linked via id. That way the users could customize naming, etc. If there is no idea assoicated then it would be assumed to be a custom category/object/field. This would also allow us to change the master list as we want without affecting current users.
+
+
+# Architecture Idea
+
+|Architecture|||
+|:-----------------:|:-----------------:|:-----------------:|
+| [Server] Core | | |
+| [Server] Infrastructure | | |
+| [Server] Services | | |
+| [Server] Web | [Mobile] Core | |
+| | [Android] App | [IOS] App |
+
+
