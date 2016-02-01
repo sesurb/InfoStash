@@ -1,6 +1,6 @@
 # InfoStash
 
-# TODO LIST
+## TODO LIST
 - [ ] Setup Rally or something similar to manage the project
 - [ ] I am using Xamarin Studio but anythign will work I believe
 - [ ] Create project layout
@@ -13,7 +13,7 @@
 - [ ] Setup devices that we want to support. Do we have different builds for each device or can we program it to work on all? Is there some kind of responisve for it?
 
 
-# Here is the idea
+## Here is the idea
 
 An app that will keep information about various thing in an organized fashion and for easy retrieval when needed. The app should be able to be shared amongst multiple people. You should also be able to share specific items with other people in an easy way. For instance you can choose to make another person an admin and share your account(spouse?), you grant someone access to everything or a portion of your categories (read only, write, admin?) or you can send someone via other method(email, text, etc) a specific item or category.
 
@@ -85,7 +85,7 @@ We will have default options below that have images and suggested items.
   Data would be transferred from the master table to the user table when it is used but it would also be linked via id. That way the users could customize naming, etc. If there is no idea assoicated then it would be assumed to be a custom category/object/field. This would also allow us to change the master list as we want without affecting current users.
 
 
-# Architecture Idea
+## Architecture Idea
 
 |Architecture|||
 |:-----------------:|:-----------------:|:-----------------:|
