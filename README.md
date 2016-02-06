@@ -72,15 +72,15 @@ We will have default options below that have images and suggested items.
   * Miscellaneous
   
   # object/class/table ideas
-  master_main_catagories *holds the default master category list*
-  master_sub_categories *holds the default master subcategory list*
-  master_objects *holds the default master object list*
-  master_object_fields *holds the default master list of fields for an object*
-  user *registered users*
-  user_main_catagories *holds the users selected main categories*
-  user_sub_categories *holds the users selected sub categories*
-  user_objects *holds the users selected objects*
-  user_object_fields *holds the users selected fields*
+  * master_main_catagories *holds the default master category list*
+  * master_sub_categories *holds the default master subcategory list*
+  * master_objects *holds the default master object list*
+  * master_object_fields *holds the default master list of fields for an object*
+  * user *registered users*
+  * user_main_catagories *holds the users selected main categories*
+  * user_sub_categories *holds the users selected sub categories*
+  * user_objects *holds the users selected objects*
+  * user_object_fields *holds the users selected fields*
   
   Data would be transferred from the master table to the user table when it is used but it would also be linked via id. That way the users could customize naming, etc. If there is no idea assoicated then it would be assumed to be a custom category/object/field. This would also allow us to change the master list as we want without affecting current users.
 
